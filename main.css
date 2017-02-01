@@ -38,8 +38,9 @@
 
 ul li {
 	display: inline;
+	text-align: center;
 	color: white;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .language {
@@ -68,7 +69,7 @@ ul li {
 }
 
 .project-description {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 300;
 	color: white;
 	text-align: center;
@@ -98,7 +99,10 @@ img {
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
     .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
+    .col-5 {
+    	width: 41.66%;
+
+    }
     .col-6 {
     	display: inline-block;
     	width: 50%;
@@ -109,5 +113,34 @@ img {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .h1 {
+		font-size: 4rem;
+	    font-weight: 300;
+		color: white;
+	}
+	.h2 {
+		font-size: 2rem;
+	    font-weight: 300;
+		color: white;
+
+	}
+
+	.h3 {
+		font-size: 1rem;
+	    font-weight: 300;
+		color: white;
+	}
+	.project-description {
+		font-size: 1.5rem;
+		font-weight: 300;
+		color: white;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
 }
+
+
+
+}
+
 
