@@ -1,23 +1,57 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
-  margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
-
 body {
 	background-color: #253654;
+	width: 100%;
+}
+@-ms-viewport{
+    width: device-width;
+}
+.headshot {
+	margin-top: 10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid #253654;
+
+}
+.selfdescription{
+	width: 50%
 }
 
-@-ms-viewport{
-  width: device-width;
+.aboutmetext {
+	font-size: 1.5rem;
+	color: #253654;
+	font-family: 'Work Sans', sans-serif;
 }
 .aboutme {
-  background-image: url("./images/portland.jpg");
+	 background-color: #FFF7CC;
+	 display: flex;
+	 justify-content: center;
+	 margin-bottom: 23px;
+	 padding-bottom: 28px;
+
+}
+.header {
+    background-image: url("./images/portland.jpg");
+    background-size: cover;
+    padding: 27rem 0;
+    text-align: center;
+    align-items: center;
+}
+
+
+.footer{
+  background-image: url("./images/portlandinverse.jpg");
   background-size: cover;
-  padding: 20rem 0;
+  padding: 10rem 0;
   text-align: center;
   align-items: center;
 }
+
 .portfolio {
 	height: auto;
 	background-color: #253654;
@@ -78,6 +112,26 @@ ul li {
 	color: #FFF7CC;
 	text-align: center;
 }
+.projimagebig {
+	margin-left: 4px;
+}
+
+.project-descriptionbig {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 50px;
+}
+.titlebig {
+	font-size: 2rem;
+	font-weight: 300;
+	color: #FFF7CC;
+	text-align: center;
+	margin-left: -39px;
+}
+
 .contactimage {
 	height: 50px;
 	width: 50px;
@@ -129,7 +183,8 @@ img {
 	}
 
 	.h3 {
-		font-size: 1rem;
+		padding-top: 5px;
+		font-size: 1.1rem;
 	    font-weight: 300;
 		color: white;
 	}
@@ -153,8 +208,18 @@ img {
 		max-width: 1000px;
 	}
 
+	.projimagebig {
+		margin-left: 4px;
+	}
 
-
+	.project-descriptionbig {
+		font-size: 1.5rem;
+		font-weight: 300;
+		color: white;
+		text-align: center;
+		padding-left: 5px;
+		padding-right: 50px;
+	}
 }
 
 
