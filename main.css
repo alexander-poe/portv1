@@ -6,11 +6,13 @@
 body {
 	background-color: #253654;
 	width: 100%;
+	overflow: auto;
 }
 @-ms-viewport{
     width: device-width;
 }
 .headshot {
+	align-items: center;
 	margin-top: 10px;
 	width: 150px;
 	height: 150px;
@@ -19,11 +21,11 @@ body {
 
 }
 .selfdescription{
-	width: 50%
+	width: 70%
 }
 
 .aboutmetext {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: #253654;
 	font-family: 'Work Sans', sans-serif;
 }
@@ -55,7 +57,6 @@ body {
 .portfolio {
 	height: auto;
 	background-color: #253654;
-  	padding-left: 30px;
   	margin-left: auto;
   	margin-right: auto;
 }
@@ -112,24 +113,20 @@ ul li {
 	color: #FFF7CC;
 	text-align: center;
 }
-.projimagebig {
-	margin-left: 4px;
-}
 
 .project-descriptionbig {
 	font-size: 1.5rem;
 	font-weight: 300;
 	color: white;
 	text-align: center;
-	padding-left: 5px;
-	padding-right: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .titlebig {
 	font-size: 2rem;
 	font-weight: 300;
 	color: #FFF7CC;
 	text-align: center;
-	margin-left: -39px;
 }
 
 .contactimage {
@@ -210,6 +207,18 @@ img {
 
 	.projimagebig {
 		margin-left: 4px;
+		filter: grayscale(100%);
+	}
+
+	.projimage {
+		padding-bottom: 32px;
+		filter: grayscale(100%);
+	}
+	.projimage:hover {
+		filter: grayscale(0%);
+	}
+	.projimagebig:hover {
+		filter: grayscale(0%);
 	}
 
 	.project-descriptionbig {
@@ -219,6 +228,25 @@ img {
 		text-align: center;
 		padding-left: 5px;
 		padding-right: 50px;
+	}
+	.headshot {
+		align-items: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		border: 2px solid #253654;
+
+	}
+	.selfdescription{
+		width: 70%
+	}
+
+	.aboutmetext {
+		font-size: 1.5rem;
+		color: #253654;
+		font-family: 'Work Sans', sans-serif;
 	}
 }
 
