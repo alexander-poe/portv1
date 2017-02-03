@@ -13,7 +13,8 @@ body {
 }
 .headshot {
 	align-items: center;
-	margin-top: 10px;
+	margin-top: 28px;
+	margin-bottom: 24px;
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
@@ -21,26 +22,27 @@ body {
 
 }
 .selfdescription{
-	width: 70%
+	width: 90%
 }
 
 .aboutmetext {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: #253654;
 	font-family: 'Work Sans', sans-serif;
 }
 .aboutme {
-	 background-color: #FFF7CC;
+	 background-color: #FFF9C4;
 	 display: flex;
 	 justify-content: center;
 	 margin-bottom: 23px;
-	 padding-bottom: 28px;
+	 padding-bottom: 40px;
+
 
 }
 .header {
     background-image: url("./images/portland.jpg");
     background-size: cover;
-    padding: 27rem 0;
+    padding: 15rem 0;
     text-align: center;
     align-items: center;
 }
@@ -65,25 +67,27 @@ body {
 	background-color: #878472;
 }
 .project-lang {
-	display: flex;
-	justify-content: center;
+	padding-top: 10px
 }
 .proj-contain {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 65px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 ul li {
-	padding-top: 5px;
+	padding-top: 15px;
 	display: inline;
 	list-style: none;
 	color: white;
 	font-size: .9rem;
-	padding-right: 20px;
 }
 .language {
 	height: 50px;
 	width: 50px;
 	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .h1 {
 	font-size: 4rem;
@@ -101,34 +105,38 @@ ul li {
     font-weight: 300;
 	color: white;
 }
+.tags {
+	padding-top: 10px;
+	font-size: 1rem;
+    font-weight: 300;
+	color: #FFF9C4;
+
+}
+
 .project-description {
 	font-size: 1.3rem;
 	font-weight: 300;
 	color: white;
-	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 .title {
 	font-size: 2rem;
 	font-weight: 300;
-	color: #FFF7CC;
-	text-align: center;
+	color: #FFF9C4;
+	padding-top: 25px;
+	padding-bottom: 10px;
 }
 
 .project-descriptionbig {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 300;
 	color: white;
-	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 .titlebig {
+	padding-top: 25px;
+	padding-bottom: 10px;
 	font-size: 2rem;
 	font-weight: 300;
-	color: #FFF7CC;
-	text-align: center;
+	color: #FFF9C4;
 }
 
 .contactimage {
@@ -171,13 +179,13 @@ img {
 	.title {
 		font-size: 2rem;
 		font-weight: 300;
-		color: #FFF7CC;
+		color: #FFF9C4;
 		text-align: center;
 	}
 	.titlebig {
 		font-size: 2rem;
 		font-weight: 300;
-		color: #FFF7CC;
+		color: #FFF9C4;
 		text-align: center;
 	}
 
@@ -185,10 +193,9 @@ img {
 		font-size: 2rem;
 	    font-weight: 300;
 		color: white;
-
 	}
 	ul {
-		padding-top: 10px;
+		line-height: : 50px;
 	}
 	.h3 {
 		padding-top: 5px;
@@ -204,6 +211,11 @@ img {
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 10px;
+	}
+	.tags {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.left {
 		float: left;
@@ -260,13 +272,15 @@ img {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-
+		line-height: 29px;
 	}
 
 	.proj-detail-big {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		padding-right: 50px;
+		line-height: 29px;
 
 	}
 
@@ -275,6 +289,13 @@ img {
 		color: #253654;
 		font-family: 'Work Sans', sans-serif;
 	}
+	.header {
+   		background-image: url("./images/portland.jpg");
+    	background-size: cover;
+   		padding: 27rem 0;
+   		text-align: center;
+   		align-items: center;
+}
 }
 
 
