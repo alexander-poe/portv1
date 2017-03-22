@@ -252,18 +252,11 @@ img {
 
 	.projimagebig {
 		margin-left: 4px;
-		filter: grayscale(100%);
 	}
 
 	.projimage {
+    margin: -14px;
 		padding-bottom: 32px;
-		filter: grayscale(100%);
-	}
-	.projimage:hover {
-		filter: grayscale(0%);
-	}
-	.projimagebig:hover {
-		filter: grayscale(0%);
 	}
 
 	.project-descriptionbig {
