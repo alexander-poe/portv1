@@ -199,13 +199,11 @@ img {
 		font-size: 2rem;
 		font-weight: 300;
 		color: #FFF9C4;
-		text-align: center;
 	}
 	.titlebig {
 		font-size: 2rem;
 		font-weight: 300;
 		color: #FFF9C4;
-		text-align: center;
 	}
 	a {
 		color: white;
@@ -228,13 +226,10 @@ img {
 		font-size: 1.2rem;
 		font-weight: 300;
 		color: white;
-		text-align: center;
-		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 10px;
 	}
 	.tags {
-		text-align: center;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -271,7 +266,6 @@ img {
 		padding-top: 10px;
 		font-weight: 300;
 		color: white;
-		text-align: center;
 	}
 
 	.headshot {
