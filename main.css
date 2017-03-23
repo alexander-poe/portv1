@@ -32,6 +32,16 @@ body {
 	width: 90%
 }
 
+.stackIcon {
+  font-size: 44px;
+  color: white;
+}
+
+.techStack {
+  display: flex;
+  width: 59px;
+}
+
 .aboutmetext {
   padding-top: 25px;
 	font-size: 1.2rem;
@@ -44,7 +54,9 @@ body {
 	 display: flex;
 	 justify-content: center;
 	 margin-bottom: 23px;
-	 padding-bottom: 50px;
+   padding-top: 62px;
+   padding-bottom: 62px;
+
 }
 
 .header {
@@ -57,10 +69,12 @@ body {
 
 
 .footer{
-  background-image: url("./images/portlandinverse.jpg");
-  background-size: cover;
+  background-image: url("./images/table.jpg");
+  background-color: #437acc;
+  background-repeat: no-repeat;
+  background-size: 800px 532px;
   padding: 10rem 0;
-  text-align: center;
+  text-align: right;
   align-items: center;
 }
 
@@ -119,8 +133,14 @@ ul li {
 
 .h3 {
 	font-size: 1rem;
-    font-weight: 300;
-	color: white;
+  font-weight: 300;
+	color: #FFF9C4;
+}
+
+.h33 {
+	font-size: 1.4rem;
+  font-weight: 300;
+	color: #F9DF24;
 }
 
 .tags {
@@ -150,6 +170,22 @@ ul li {
 	color: white;
 }
 
+.babel {
+  height: 50px;
+  width: auto;
+}
+
+.babelTag {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 86px;
+}
+
+.h4 {
+  font-size: 18px;
+  color: white;
+}
+
 .titlebig {
 	padding-top: 25px;
 	padding-bottom: 10px;
@@ -162,6 +198,10 @@ ul li {
 	height: 50px;
 	width: 50px;
 	padding: 5px;
+}
+
+.wrapperFooter {
+  padding: 62px;
 }
 
 a {
@@ -211,7 +251,8 @@ img {
 		color: #FFF9C4;
 	}
 	a {
-		color: white;
+		color: #FFF9C4;
+    text-decoration: none;
 	}
 	.h2 {
 		font-size: 2rem;
@@ -225,18 +266,19 @@ img {
 		padding-top: 5px;
 		font-size: 1.1rem;
 	  font-weight: 300;
-		color: white;
 	}
+
+  .h33 {
+    padding-top: 5px;
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
 	.project-description {
 		font-size: 1.2rem;
 		font-weight: 300;
 		color: white;
-		padding-right: 20px;
-		padding-top: 10px;
-	}
-	.tags {
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-bottom: 32px;
 	}
 	.left {
 		float: left;
@@ -252,16 +294,18 @@ img {
 
 	.projimagebig {
 		margin-left: 4px;
+    margin-top: -38px;
 	}
 
 	.projimage {
-    margin: -14px;
+    margin: -18px;
 		padding-bottom: 32px;
 	}
 
 	.project-descriptionbig {
 		font-size: 1.2rem;
 		padding-top: 10px;
+    padding-bottom: 34px;
 		font-weight: 300;
 		color: white;
 	}
@@ -295,7 +339,7 @@ img {
 	}
 
 	.aboutmetext {
-		font-size: 1.5rem;
+		font-size: 1.22rem;
 		color: #253654;
 		font-family: 'Work Sans', sans-serif;
 	}
