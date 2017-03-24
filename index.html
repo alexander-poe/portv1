@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<a class="nav1" href="#contactme"><img class="addIcon" src="./images/add-contact.png"></a>
 	<div class="header">
 		<p class="h1">alex poe</p>
 		<p class="h2">full stack developer</p>
@@ -23,6 +24,7 @@
 		</div>
 	</div>
 	<div class="portfolio">
+		<a class="nav2" href="#contactme"><img class="addIcon" src="./images/add-contact.png"></a>
 		<div class="proj-contain">
 			<a target="_blank" href="http://www.family-photos.online/#/"><img class="projimagebig col-6" src="./images/family-page.png"></a>
 			<div class="proj-detail-big col-5 left">
@@ -35,7 +37,7 @@
 					<i class="icon-reactjs stackIcon"></i>
 					<i class="icon-nodejs stackIcon"></i>
 					<i class="icon-mongodb stackIcon"></i>
-				</br>	
+				</br>
 				<a target="_blank" href="https://github.com/alexpoe22/family-page">Source<i class="icon-git"></i></a>
 				<a target="_blank" href="http://www.family-photos.online/#/">Live<i class="icon-heroku"></i></a>
 				</p>
@@ -105,12 +107,20 @@
 		</div>
 	</div>
 	<div class="footer">
-		<div class="wrapperFooter">
+		<div class="pingpong">
+			<canvas id="canvas" width="400" height="400"></canvas>
+		</div>
+		<div class="wrapperFooter" id="contactme">
 			<p class="h2"> contact me </p>
 			<div class="contacticons">
 				<p target="_blank" class="h33"> alexpoe22@gmail.com </p>
 			</div>
 		</div>
 	</div>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous"></script>
+	<script src="app.js"></script>
 </body>
 </html>

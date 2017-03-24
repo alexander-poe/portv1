@@ -49,13 +49,16 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 
+
+
 .aboutme {
 	 background-color: #FFF9C4;
 	 display: flex;
 	 justify-content: center;
 	 margin-bottom: 23px;
-   padding-top: 62px;
-   padding-bottom: 62px;
+   padding-top: 121px;
+   padding-bottom: 23px;
+   height: 700px;
 
 }
 
@@ -69,12 +72,11 @@ body {
 
 
 .footer{
-  background-image: url("./images/table.jpg");
+  background-image: url("./images/table.png");
   background-color: #437acc;
   background-repeat: no-repeat;
-  background-size: 800px 532px;
-  padding: 10rem 0;
-  text-align: right;
+  background-size: 762px 383px;
+  height: 349px;
   align-items: center;
 }
 
@@ -175,6 +177,10 @@ ul li {
   width: auto;
 }
 
+.pingpong {
+  display: none;
+}
+
 .babelTag {
   display: flex;
   justify-content: flex-end;
@@ -193,6 +199,25 @@ ul li {
 	font-weight: 300;
 	color: #FFF9C4;
 }
+
+.nav1 {
+  position: fixed;
+  padding: 10px;
+  display: none;
+}
+
+.nav2 {
+  padding: 10px;
+  opacity: 1;
+}
+
+.addIcon {
+  height: 37px;
+  width: auto;
+}
+
+
+
 
 .contactimage {
 	height: 50px;
@@ -260,6 +285,9 @@ img {
 	  font-weight: 300;
 		color: white;
 	}
+
+
+
 	ul {
 		line-height: : 50px;
 	}
@@ -318,9 +346,9 @@ img {
 	}
 
 	.selfdescription{
-		width: 80%;
-		line-height: 35px;
-		padding: 19px;
+		width: 89%;
+		line-height: 38px;
+		padding: 113px;
 	}
 
 	.proj-detail {
@@ -338,6 +366,22 @@ img {
 		line-height: 29px;
 
 	}
+
+  .pingpong {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .nav1 {
+    position: fixed;
+    padding: 10px;
+    display: block;
+  }
+
+  .nav2 {
+    opacity: 0;
+  }
 
 	.aboutmetext {
 		font-size: 1.22rem;
