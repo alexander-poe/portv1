@@ -29,12 +29,13 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+  padding-top: 25px;
 }
 
 .headshot {
 	align-items: center;
-	width: 181px;
-	height: 150px;
+	width: 125px;
+	height: 100px;
   margin-right: 20px;
   margin-top: 34px;
   float: left;
@@ -43,6 +44,7 @@ body {
 .selfdescription{
 	width: 90%;
   margin-bottom: 73px;
+  margin-top: 30px;
 }
 
 .stackIcon {
@@ -78,8 +80,9 @@ body {
 
 .header {
     background-image: url("./images/portland.jpg");
-    background-size: cover;
-    padding: 15rem 0;
+    background-size: 603px 475px;
+    background-repeat: no-repeat;
+    padding: 11rem 0;
     text-align: center;
     align-items: center;
 }
@@ -99,6 +102,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 25px;
+}
+
+.bloggerGithub {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 132px;
+}
+
+
+.sites {
+  height: 45px;
+  width: auto;
+  margin: 5px;
 }
 
 .contact {
@@ -292,6 +308,17 @@ img {
 	  font-weight: 300;
 		color: white;
 	}
+
+  .bloggerGithub {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sites {
+    height: 45px;
+    width: auto;
+    margin: 5px;
+  }
 
 	ul {
 		line-height: : 50px;
