@@ -22,14 +22,12 @@ body {
 .slidePic {
   height: 70px;
   width: auto;
-  margin: 10px;
+  margin: 9px;
 }
 
 .workSlideShow {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 25px;
 }
 
 .headshot {
@@ -44,7 +42,7 @@ body {
 .selfdescription{
 	width: 90%;
   margin-bottom: 73px;
-  margin-top: 30px;
+  padding-top: 70px;
 }
 
 .stackIcon {
@@ -58,7 +56,6 @@ body {
 }
 
 .aboutmetext {
-  padding-top: 25px;
 	font-size: 1.2rem;
 	color: #253654;
 	font-family: 'Work Sans', sans-serif;
@@ -70,17 +67,16 @@ body {
 	 justify-content: center;
    flex-direction: column;
 	 margin-bottom: 23px;
-   padding-top: 60px;
    padding-left: 15px;
    padding-right: 10px;
    padding-bottom: 23px;
-   height: 700px;
+   height: 900px;
 
 }
 
 .header {
     background-image: url("./images/portland.jpg");
-    background-size: 603px 475px;
+    background-size: 603px 490px;
     background-repeat: no-repeat;
     padding: 11rem 0;
     text-align: center;
