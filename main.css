@@ -17,7 +17,6 @@ a {
 
 img {
     width: 100%;
-    transition: opacity 0.3s ease-in-out;
 }
 
 @-ms-viewport{
@@ -30,6 +29,10 @@ img {
 
 .bx-wrapper {
   height: 250px;
+}
+
+.code-snippet {
+  margin-bottom: 5px;
 }
 
 .react-native {
@@ -194,7 +197,7 @@ ul li {
 }
 
 .project-description {
-	font-size: 1.3rem;
+	font-size: .9rem;
 	font-weight: 300;
 	color: white;
 }
@@ -208,7 +211,7 @@ ul li {
 }
 
 .project-descriptionbig {
-	font-size: 1.3rem;
+	font-size: .9rem;
 	font-weight: 300;
 	color: white;
   padding-right: 20px;
@@ -276,6 +279,10 @@ ul li {
     .col-5 {
     	width: 41.66%;
 
+    }
+
+    .code-snippet {
+      margin: 5px;
     }
 
     .bx-wrapper {
@@ -348,8 +355,7 @@ ul li {
   }
 
 	.project-description {
-		font-size: 1.2rem;
-		font-weight: 300;
+		font-size: .9rem;
 		color: white;
 		padding-bottom: 32px;
 	}
@@ -376,7 +382,7 @@ ul li {
 	}
 
 	.project-descriptionbig {
-		font-size: 1.2rem;
+		font-size: .9rem;
 		padding-top: 10px;
     padding-bottom: 34px;
 		font-weight: 300;

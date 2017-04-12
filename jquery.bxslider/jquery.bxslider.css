@@ -15,8 +15,7 @@
   display: block;
 }
 .bxslider {
-  margin: 0;
-  padding: 0;
+  padding: 1px;
 }
 ul.bxslider {
   color: black;
