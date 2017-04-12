@@ -4,6 +4,7 @@
 	<title>Alex Poe</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" href="./font-mfizz-2.4.1/font-mfizz.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +23,12 @@
 			<a href="#instaFrench"><img class="slidePic" src="./images/instaFren.png"></a>
 			<a href="#recipeSearch"><img class="slidePic" src="./images/recipe-search.png"></a>
 		</div>
+		<ul class="bxslider">
+			<li><img class="slidePic" src="./images/family-page.png"></li>
+			<li><img class="slidePic" src="./images/family-page.png"></li>
+			<li><img class="slidePic" src="./images/family-page.png"></li>
+			<li><img class="slidePic" src="./images/family-page.png"></li>
+		</ul>
 		<div class="selfdescription">
 			<img class="headshot" src="./alex2.jpg">
 			<p class="aboutmetext">
@@ -31,7 +38,7 @@
 			Abramov and his contributions to the tech community, #juniordevforlife.
 			I see myself somewhere between the software and business side in the next
 			five years with a capability to wear multiple hats. I also recently started blogging my learning experience,
-			click the B below to check out what i am working on. 
+			click the B below to check out what i am working on.
 			</p>
 		</div>
 		<div class="bloggerGithub">
@@ -44,6 +51,21 @@
 		<div id="familyPage" class="proj-contain">
 			<a target="_blank" href="http://www.family-photos.online/#/"><img class="projimagebig col-6" src="./images/family-page.png"></a>
 			<div class="proj-detail-big col-5 left">
+				<p class="titlebig"> Family Page </p>
+				<p class="project-descriptionbig">
+			A photo sharing app for the whole family which features private messages on announcements and photos and the ability to search by user.
+				</p>
+				<p class="tags">
+					<i class="icon-mobile-device stackIcon"></i>
+					<i class="icon-reactjs stackIcon"></i>
+					<i class="icon-nodejs stackIcon"></i>
+					<i class="icon-mongodb stackIcon"></i>
+				</br>
+				<a target="_blank" href="https://github.com/alexpoe22/family-page">Source<i class="icon-git"></i></a>
+				<a target="_blank" href="http://www.family-photos.online/#/">Live<i class="icon-heroku"></i></a>
+				</p>
+			</div>
+			<div class="proj-detail-big col-5 left hidden z">
 				<p class="titlebig"> Family Page </p>
 				<p class="project-descriptionbig">
 			A photo sharing app for the whole family which features private messages on announcements and photos and the ability to search by user.
@@ -133,6 +155,7 @@
 	  src="https://code.jquery.com/jquery-3.2.1.js"
 	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 	  crossorigin="anonymous"></script>
+	<script src="./jquery.bxslider/jquery.bxslider.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
