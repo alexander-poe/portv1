@@ -28,6 +28,10 @@ img {
   display: none;
 }
 
+.bx-wrapper {
+  height: 250px;
+}
+
 .react-native {
   height: 50px;
   fill: white;
@@ -207,6 +211,7 @@ ul li {
 	font-size: 1.3rem;
 	font-weight: 300;
 	color: white;
+  padding-right: 20px;
 }
 
 .babel {
@@ -271,6 +276,10 @@ ul li {
     .col-5 {
     	width: 41.66%;
 
+    }
+
+    .bx-wrapper {
+      height: 400px;
     }
 
     .bx-prev {
