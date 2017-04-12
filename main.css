@@ -10,6 +10,16 @@ body {
 	overflow: auto;
 }
 
+a {
+	color: white;
+  text-decoration: none;
+}
+
+img {
+    width: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
 @-ms-viewport{
     width: device-width;
 }
@@ -108,7 +118,6 @@ body {
   justify-content: center;
   margin-bottom: 132px;
 }
-
 
 .sites {
   height: 45px;
@@ -250,15 +259,6 @@ ul li {
   padding: 62px;
 }
 
-a {
-	color: white;
-  text-decoration: none;
-}
-
-img {
-    width: 100%;
-    transition: opacity 0.3s ease-in-out;
-}
 [class*="col-"] {
     width: 100%;
 }
