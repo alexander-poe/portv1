@@ -23,6 +23,11 @@ img {
     width: device-width;
 }
 
+
+.bx-viewport {
+  height: 300px
+}
+
 .bx-prev {
   display: none;
 }
@@ -201,6 +206,7 @@ ul li {
 .project-description {
 	font-size: .9rem;
 	font-weight: 300;
+  width: 90%;
 	color: white;
 }
 
@@ -214,6 +220,7 @@ ul li {
 
 .project-descriptionbig {
 	font-size: .9rem;
+  width: 90%;
 	font-weight: 300;
 	color: white;
   padding-right: 20px;
@@ -298,6 +305,10 @@ ul li {
       height: 400px;
     }
 
+    .bx-viewport {
+      height: 300px
+    }
+
     .bx-prev {
       display: none;
     }
@@ -366,6 +377,7 @@ ul li {
 	.project-description {
 		font-size: .9rem;
 		color: white;
+    width: 90%;
 		padding-bottom: 32px;
 	}
 	.left {
@@ -392,6 +404,7 @@ ul li {
 
 	.project-descriptionbig {
 		font-size: .9rem;
+    width: 90%;
 		padding-top: 10px;
     padding-bottom: 34px;
 		font-weight: 300;
