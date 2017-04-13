@@ -10,8 +10,29 @@ body {
 	overflow: auto;
 }
 
+a {
+	color: white;
+  text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
 @-ms-viewport{
     width: device-width;
+}
+
+.bx-prev {
+  display: none;
+}
+
+.bx-wrapper {
+  height: 250px;
+}
+
+.code-snippet {
+  margin-bottom: 5px;
 }
 
 .react-native {
@@ -71,7 +92,6 @@ body {
    padding-right: 10px;
    padding-bottom: 23px;
    height: 900px;
-
 }
 
 .header {
@@ -105,7 +125,6 @@ body {
   justify-content: center;
   margin-bottom: 132px;
 }
-
 
 .sites {
   height: 45px;
@@ -178,7 +197,7 @@ ul li {
 }
 
 .project-description {
-	font-size: 1.3rem;
+	font-size: .9rem;
 	font-weight: 300;
 	color: white;
 }
@@ -192,9 +211,10 @@ ul li {
 }
 
 .project-descriptionbig {
-	font-size: 1.3rem;
+	font-size: .9rem;
 	font-weight: 300;
 	color: white;
+  padding-right: 20px;
 }
 
 .babel {
@@ -247,18 +267,17 @@ ul li {
   padding: 62px;
 }
 
-a {
-	color: white;
-  text-decoration: none;
-}
-
-img {
-    width: 100%;
-    transition: opacity 0.3s ease-in-out;
-}
 [class*="col-"] {
     width: 100%;
 }
+
+@media only screen and (min-width: 597px) and (max-width: 768px) {
+  .header {
+    background-image: url("./images/portland.jpg");
+    background-size: cover;
+  }
+}
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -269,7 +288,17 @@ img {
     	width: 41.66%;
 
     }
+    .code-snippet {
+      margin: 5px;
+    }
 
+    .bx-wrapper {
+      height: 400px;
+    }
+
+    .bx-prev {
+      display: none;
+    }
     .col-6 {
     	display: inline-block;
     	width: 57%;
@@ -280,11 +309,12 @@ img {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-    .h1 {
-		font-size: 4rem;
-	    font-weight: 300;
-		color: white;
-	}
+
+  .h1 {
+	  font-size: 4rem;
+    font-weight: 300;
+	  color: white;
+  }
 	.title {
 		font-size: 2rem;
 		font-weight: 300;
@@ -332,8 +362,7 @@ img {
   }
 
 	.project-description {
-		font-size: 1.2rem;
-		font-weight: 300;
+		font-size: .9rem;
 		color: white;
 		padding-bottom: 32px;
 	}
@@ -360,7 +389,7 @@ img {
 	}
 
 	.project-descriptionbig {
-		font-size: 1.2rem;
+		font-size: .9rem;
 		padding-top: 10px;
     padding-bottom: 34px;
 		font-weight: 300;

@@ -4,6 +4,7 @@
 	<title>Alex Poe</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" href="./font-mfizz-2.4.1/font-mfizz.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,95 +26,234 @@
 		<div class="selfdescription">
 			<img class="headshot" src="./alex2.jpg">
 			<p class="aboutmetext">
-			Web developer, founded and ran an e-commerce business.
-			I'm interested in dealing with complex relational databases, machine learning algorithms
-			and UX / UI with front-end frameworks. I take inspiration from Dan
-			Abramov and his contributions to the tech community, #juniordevforlife.
-			I see myself somewhere between the software and business side in the next
-			five years with a capability to wear multiple hats. I also recently started blogging my learning experience,
-			click the B below to check out what i am working on. 
+				Web developer, founded and ran an e-commerce business.
+				I'm interested in dealing with complex relational databases, machine learning algorithms
+				and UX / UI with front-end frameworks. I take inspiration from Dan
+				Abramov and his contributions to the tech community, #juniordevforlife.
+				I see myself somewhere between the software and business side in the next
+				five years with a capability to wear multiple hats. I also recently started blogging my learning experience,
+				click the B below to check out what i am working on.
 			</p>
 		</div>
 		<div class="bloggerGithub">
-			<a href="http://whatiamworkingon.alexpoe.io/"><img class="sites" src="./images/blogger.png"></a>
-			<a href="https://github.com/alexpoe22"><img class="sites" src="./images/github.png"></a>
+			<a href="http://whatiamworkingon.alexpoe.io/">
+				<img class="sites" src="./images/blogger.png">
+			</a>
+			<a href="https://github.com/alexpoe22">
+				<img class="sites" src="./images/github.png">
+			</a>
 		</div>
 	</div>
 	<div class="portfolio">
-		<a class="nav2" href="#contactme"><img class="addIcon" src="./images/add-contact.png"></a>
+		<a class="nav2" href="#contactme">
+			<img class="addIcon" src="./images/add-contact.png">
+		</a>
 		<div id="familyPage" class="proj-contain">
-			<a target="_blank" href="http://www.family-photos.online/#/"><img class="projimagebig col-6" src="./images/family-page.png"></a>
+			<a target="_blank" href="http://www.family-photos.online/#/">
+				<img class="projimagebig col-6" src="./images/family-page.png">
+			</a>
 			<div class="proj-detail-big col-5 left">
 				<p class="titlebig"> Family Page </p>
-				<p class="project-descriptionbig">
-			A photo sharing app for the whole family which features private messages on announcements and photos and the ability to search by user.
-				</p>
-				<p class="tags">
-					<i class="icon-mobile-device stackIcon"></i>
-					<i class="icon-reactjs stackIcon"></i>
-					<i class="icon-nodejs stackIcon"></i>
-					<i class="icon-mongodb stackIcon"></i>
-				</br>
-				<a target="_blank" href="https://github.com/alexpoe22/family-page">Source<i class="icon-git"></i></a>
-				<a target="_blank" href="http://www.family-photos.online/#/">Live<i class="icon-heroku"></i></a>
-				</p>
+				<ul class="bxslider">
+					<li>
+						<p class="project-descriptionbig">
+							Overview: this photo sharing app was made with two colleauges and myself
+							for our graduation project. I took responsibility entirely for the design and
+							ensuring its mobile responsiveness as well as various parts of the front end.
+						</p>
+						<p class="tags">
+							<i class="icon-mobile-device stackIcon"></i>
+							<i class="icon-reactjs stackIcon"></i>
+							<i class="icon-nodejs stackIcon"></i>
+							<i class="icon-mongodb stackIcon"></i>
+							</br>
+							<a target="_blank" href="https://github.com/alexpoe22/family-page">Source
+								<i class="icon-git"></i>
+							</a>
+							<a target="_blank" href="http://www.family-photos.online/#/">Live
+								<i class="icon-heroku"></i>
+							</a>
+						</p>
+					</li>
+					<li>
+						<p class="project-descriptionbig">
+							Challenge: the challenge of Family Page was to create a platform where families
+							can share their photos, as well as directly respond to the poster of a photo without
+							the whole group seeing. Furthermore, we went into this project with the plan
+							to avoid plugins and bootstrapped styles and instead write everything from scratch.
+					</li>
+					<li>
+						<p class="project-descriptionbig">
+							Tech: My favorite part of this project was working with Airbnb's style guide
+							and the use of prop types. The features I contributed to was, filters, dynamic classes, date separation and navigation
+							on the gallery page. We frequently worked in pairs as to have a more holistic understanding of the entirety of Family Page.
+						</p>
+					</li>
+					<li>
+						<p class="project-descriptionbig">
+							Takeaways: I found that working with Airbnb's style guide was tremendously informative
+							and helpful in working with two other teammates. In hindsight, I would have liked to spend more time
+							optimizing the site, with lazy loading, and image size constraints to reduce loading more then is being seen.
+						</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<div id="personalFinances" class="proj-contain">
-			<a target="_blank" href="https://github.com/alexpoe22/financeApp" ><img class="projimage col-5" src="./images/rnapp2.png"></a>
+			<a target="_blank" href="https://github.com/alexpoe22/financeApp" >
+				<img class="projimage col-5" src="./images/rnapp2.png">
+			</a>
 			<div class="proj-detail col-6 right">
 				<p class="title"> Personal-Finances </p>
-				<p class="project-description">
-				A simple, powerful tool to keep track of your personal finances.
-				</p>
-				<p class="tags">
-					<div class="techStack">
-						<i class="icon-iphone stackIcon"></i>
-						<i class="icon-nodejs stackIcon"></i>
-						<i class="icon-postgres stackIcon"></i>
-						<i class="icon-aws stackIcon"></i>
-						<i class="icon-reactjs stackIcon"></i>
-					</div>
-				<a target="_blank" href="https://github.com/alexpoe22/financeApp">Source <i class="icon-git"></i> </a>
-				</p>
+				<ul class="bxslider">
+				  <li>
+						<p class="project-description">
+						Overview: Want to keep track of your money without having to log into your account? Have a fast paced life and want
+						to know you are responsibly spending? Check out my solo project that is the answer to my and possibly your budgeting needs.
+						</p>
+						<p class="tags">
+							<div class="techStack">
+								<i class="icon-iphone stackIcon"></i>
+								<i class="icon-nodejs stackIcon"></i>
+								<i class="icon-postgres stackIcon"></i>
+								<i class="icon-aws stackIcon"></i>
+								<i class="icon-reactjs stackIcon"></i>
+							</div>
+							<a target="_blank" href="https://github.com/alexpoe22/financeApp">Source
+								<i class="icon-git"></i>
+							</a>
+						</p>
+					</li>
+				  <li>
+						<p class="project-description">
+							Challenge: The challenge of this app was to create a finance tool that would allow you to keep track of your
+							finances in relation to your expenses, savings goals, and budget. Furthermore, the challenge was to do this in a way that maintains simplicity
+							and usuablity.
+						</p>
+					</li>
+				  <li>
+						<p class="project-description">
+							Tech: Using react-native made this an exciting project and I learned a lot along the way. The way elements
+							are turned into widgets / components is an interesting choice as well as inline styling. I have not experience workig with true native
+							code so I cannot really compare but I do like the familiarity to react. Moving forward I'd like to use native-base for
+							the UI, to have a consistent look with other popular mobile apps.
+						</p>
+					</li>
+				  <li>
+						<p class="project-description">
+							Overview: This has been v1 of my finance app and with the most recent create-react-native-app released
+							by facebook I have started to rebuild the project with the knowlege I know now. This was essentially created as part of
+							a one week journey to learn a new language. More coming...
+						</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<div id="instaFrench" class="proj-contain">
-			<a target="_blank" href="https://stark-river-80170.herokuapp.com/#/"><img class="projimagebig col-6" src="./images/instaFren.png"></a>
+			<a target="_blank" href="https://stark-river-80170.herokuapp.com/#/">
+				<img class="projimagebig col-6" src="./images/instaFren.png">
+			</a>
 			<div class="proj-detail-big col-5 left">
 				<p class="titlebig"> InstaFrench </p>
-				<p class="project-descriptionbig">
-				A flashcard like approach to learn French using a spaced repetiton algorithm.
-				</p>
-				<p class="tags">
-					<div class="techStack">
-						<i class="icon-sass stackIcon"></i>
-						<i class="icon-reactjs stackIcon"></i>
-						<i class="icon-mongodb stackIcon"></i>
-					  <i class="icon-aws stackIcon"></i>
-						<i class="icon-nodejs stackIcon"></i>
-					</div>
-				<a target="_blank" href="https://github.com/alexpoe22/Spaced_Repetition">Source <i class="icon-git"></i></a>
-				<a target="_blank" href="https://stark-river-80170.herokuapp.com/#/">Live <i class="icon-heroku"></i></a>
+					<ul class="bxslider">
+						<li>
+							<p class="project-descriptionbig">
+							Overview: Need to touch up on your french? You are in luck, instaFrench,
+							a flashcard like approach using a spaced repetiton algorithm will get you
+							a step closer to your learning goals.
+							</p>
+							<p class="tags">
+								<div class="techStack">
+									<i class="icon-sass stackIcon"></i>
+									<i class="icon-reactjs stackIcon"></i>
+									<i class="icon-mongodb stackIcon"></i>
+								  <i class="icon-aws stackIcon"></i>
+									<i class="icon-nodejs stackIcon"></i>
+								</div>
+							<a target="_blank" href="https://github.com/alexpoe22/Spaced_Repetition">Source
+								<i class="icon-git"></i>
+							</a>
+							<a target="_blank" href="https://stark-river-80170.herokuapp.com/#/">Live
+								<i class="icon-heroku"></i>
+							</a>
+						</li>
+						<li>
+							<p class="project-descriptionbig">
+								Challenge: The challenge of this project was to create a simple UI that would represent
+								a flashcard-like approach to learning. Some of the
+								biggest difficulties faced in this project was backend authentication with Oauth and Bearer. My
+								partner took on this part of the project initially and we got to a place where we were heavily stuck.
+								I managed to come in with a fresh set of eyes and essentially solve the problem by installing react-cookies and including
+								the authentication token in the action headers being sent to the server.
+							</p>
+						</li>
+						<li>
+							<p class="project-descriptionbig">
+								Tech: Essentially with passport's google authentication a user signs in with their google information
+								and an authentication token is stored in the cookies. Bearer, used for route authentication requires the authentication token in cookies
+								for access. When the cookie was not included in the request to the server, Bearer did its job and denied access.
+							</p>
+						</li>
+						<li>
+							<p class="project-descriptionbig">
+								Takeaways: This project was a fun with a lower level of complexity and moving parts
+								compared to the projects I am working on now. I'd like to explore making this entire project
+								dynamic in a way that a user could customize the theme of the project and the questions that are
+								asked. It could be an all around much more useful tool with those capabilities.
+							</p>
+						</li>
+					</ul>
 				</p>
 			</div>
 		</div>
 		<div id="recipeSearch" class="proj-contain">
-			<a target="_blank" href="https://alexpoe22.github.io/recipe-search/"><img class="projimage col-5" src="./images/recipe-search.png"></a>
+			<a target="_blank" href="https://alexpoe22.github.io/recipe-search/">
+				<img class="projimage col-5" src="./images/recipe-search.png">
+			</a>
 			<div class="proj-detail col-6 right">
 				<p class="title"> Recipe Search </p>
-				<p class="project-description">
-				 Find recipes using a filter, then see their ingredients and nutritional facts without needing to open new tabs.
-				</p>
-				<p class="tags">
-					<i class="icon-css3 stackIcon"></i>
-					<i class="icon-html5 stackIcon"></i>
-					<i class="icon-javascript stackIcon"></i>
-					<i class="icon-jquery stackIcon"></i>
-						</br>
-				<a target="_blank" href="https://github.com/alexpoe22/recipe-search">Source <i class="icon-git"></i></a>
-				<a target="_blank" href="https://alexpoe22.github.io/recipe-search/">Live <i class="icon-heroku"></i></a>
-				</p>
+				<ul class="bxslider">
+					<li>
+						<p class="project-description">
+							Overview: Find recipes, see their ingredients and nutritional facts without needing to open new tabs. Vegan, GF, Vegetarian, Peanut allergies?
+							You're in luck, we got recipe filters for your needs. Made with my partner Theresa Wilkin, who I had the pleasure of working with for instaFrench.
+						</p>
+						<p class="tags">
+							<i class="icon-css3 stackIcon"></i>
+							<i class="icon-html5 stackIcon"></i>
+							<i class="icon-javascript stackIcon"></i>
+							<i class="icon-jquery stackIcon"></i>
+								</br>
+						<a target="_blank" href="https://github.com/alexpoe22/recipe-search">Source
+							<i class="icon-git"></i>
+						</a>
+						<a target="_blank" href="https://alexpoe22.github.io/recipe-search/">Live
+							<i class="icon-heroku"></i>
+						</a>
+					</p>
+				</li>
+				<li>
+					<p class="project-description">
+						Challenge: Going into this project we wanted to create a enticing UX that involved
+						lots of recipies and zero being sent down a wormhole of sites to find the right meal. Both me
+						and my partner had experienced this as a problem and set out to fix it with recipe search.
+					</p>
+				</li>
+				<li>
+					<p class="project-description">
+						Tech: For this project we used Edamames API which had a plethora of possibilites and jQuery to manipulate
+						the DOM. There is a lot of possiblities and directions to go with this app, but before proceeding I would like
+						to switch over from JQuery to React allowing the app to scale in a cleaner manner.
+					</p>
+				</li>
+				<li>
+					<p class="project-description">
+						Takeaways: This is a very useful app in ways and also has the potential to be much more.
+						It would be fantasic to use other recipe API's and integrate it into the current system to have a
+						wider base of choices.
+					</p>
+				</li>
+				</ul>
 			</div>
 			<div class="babelTag">
 				<p class="h4"> made with </p>
@@ -133,6 +273,7 @@
 	  src="https://code.jquery.com/jquery-3.2.1.js"
 	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 	  crossorigin="anonymous"></script>
+	<script src="./jquery.bxslider/jquery.bxslider.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>

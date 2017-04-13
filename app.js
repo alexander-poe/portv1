@@ -10,3 +10,8 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
   }
 });
+
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
