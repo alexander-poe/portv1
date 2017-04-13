@@ -270,6 +270,14 @@ ul li {
 [class*="col-"] {
     width: 100%;
 }
+
+@media only screen and (min-width: 597px) and (max-width: 768px) {
+  .header {
+    background-image: url("./images/portland.jpg");
+    background-size: cover;
+  }
+}
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -280,7 +288,6 @@ ul li {
     	width: 41.66%;
 
     }
-
     .code-snippet {
       margin: 5px;
     }
@@ -292,7 +299,6 @@ ul li {
     .bx-prev {
       display: none;
     }
-
     .col-6 {
     	display: inline-block;
     	width: 57%;
@@ -303,11 +309,12 @@ ul li {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-    .h1 {
-		font-size: 4rem;
-	    font-weight: 300;
-		color: white;
-	}
+
+  .h1 {
+	  font-size: 4rem;
+    font-weight: 300;
+	  color: white;
+  }
 	.title {
 		font-size: 2rem;
 		font-weight: 300;
