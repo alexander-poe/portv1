@@ -48,12 +48,14 @@ img {
 .slidePic {
   height: 96px;
   width: auto;
-  margin: 35px;
+  margin: 22px;
 }
 
 .workSlideShow {
   display: flex;
   justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .headshot {
