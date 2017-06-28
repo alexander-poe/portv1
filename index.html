@@ -45,7 +45,7 @@
 				<ul class="bxslider">
 					<li>
 						<p class="project-descriptionbig">
-							Overview: this photo sharing app was made with two colleagues and myself for our graduation project. I took responsibility entirely for the design and ensuring its mobile responsiveness as well as various parts of the front end.
+							Overview: This photo sharing app was made with two colleagues and myself to create a better way to share photos between families. I was responsible for design, mobile-responsiveness and gallery features. 
 						</p>
 						<p class="tags">
 							<i class="icon-mobile-device stackIcon"></i>
@@ -63,18 +63,17 @@
 					</li>
 					<li>
 						<p class="project-descriptionbig">
-							Challenge: the challenge of Family Page was to create a platform where families can share their photos, as well as directly respond to the poster of a photo without the whole group seeing. Furthermore, we went into this project with the plan to avoid plugins and bootstrapped styles and instead write everything from scratch.
+							Challenge: The challenge was managing the state of the React app with multiple one to one and one to many relationships being served from the backend. Going into this project we wanted to use as little plugins and packages as possible to be challenged with writing the code from scratch. 
 						</p>
 					</li>
 					<li>
 						<p class="project-descriptionbig">
-							Tech: My favorite part of this project was working with Airbnb's style guide and the use of prop types. The features I contributed to was, filters, dynamic classes, date separation and navigation on the gallery page. We frequently worked in pairs as to have a more holistic understanding of the entirety of Family Page.
+							Tech: My favorite part of this project was the process of finding the best solution to manage the state of different users in relation to their photos, comments, and replies. Using redux and carefully crafted reducers we managed the state of the application flawlessly. 
 						</p>
 					</li>
 					<li>
 						<p class="project-descriptionbig">
-							Takeaways: I found that working with Airbnb's style guide was tremendously informative and helpful in working with two other teammates. In hindsight, I would have liked to spend more time optimizing the site, with lazy loading, and image size constraints to reduce loading more than is being seen.
-
+							Takeaways: Managing the state of the front end application and data structuring can have a wide variety of reasonable approaches. Taking the time to critically plan out the right approach suited for the clients is a valuable thing  to do and served us well in the creation of Family Page.
 						</p>
 					</li>
 				</ul>
@@ -89,7 +88,7 @@
 				<ul class="bxslider">
 				  	<li>
 						<p class="project-description">
-						Overview: Fuzzy finder is exactly that! It is auto suggestion so you can find what you are looking for even when you don't know exactly what the title is. This was a solo project and a great learning experience into the world of fuzzy finders, which has large degrees of varying complexity. 
+						Overview: Fuzzy finder or fuzzy search is exactly that! It is a program inside of a concise React UI that is parsing imported JSON with a custom fuzzy-find/auto-suggestion algorithm.  
 						</p>
 						<p class="tags">
 							<div class="techStack">
@@ -108,17 +107,17 @@
 					</li>
 				  	<li>
 						<p class="project-description">
-							Challenge: This app posed the challenge of how far down the rabbit hole I wanted to go. From approximate string matching, to auto suggestions based on phonetics the rabbit hole got deep quickly.
+							Challenge: To boil down the essence of auto-suggestion logic into a new implementation that could be done within a day.
 						</p>
 					</li>
 				 	 <li>
 						<p class="project-description">
-							Tech: I ended up using an algorithm that matches the characters of the text with the query in relation to order of the characters and character position. Not to mention, the dataset the algorithim is using is over 1500 entries and the runtime of this problem could sky rocket quickly. 
+							Tech: The boiled down version of auto-suggestion which excluded levenshtein distance, approximate string and phonetic matching was to match based on characters and their position.  
 						</p>
 					</li>
 				 	 <li>
 						<p class="project-description">
-							Takeaways: In this project I learned a lot about how to work with more bigger data and how to create a system that could handle such. The performance was clearly noticeable with different solutions.
+							Takeaways: This project taught me how to abstract complex task and ideas into minimum viable product. It’d would be very interesting to re-write the logic using Python and see how performance is affected. 
 					</li>
 				</ul>
 			</div>
@@ -131,8 +130,8 @@
 				<p class="titlebig"> InstaFrench </p>
 					<ul class="bxslider">
 						<li>
-							<p class="project-descriptionbig">
-											Overview: Need to touch up on your french? You are in luck, instaFrench, a flashcard like approach using a spaced repetition algorithm will get you a step closer to your learning goals.
+							<p class="project-descriptionbig">		
+								Overview: Do you need to touch up on your french? You are in luck, InstaFrench, a flashcard like approach using a spaced repetition algorithm will get you a step closer to your learning goals one card at a time.
 							</p>
 							<p class="tags">
 								<div class="techStack">
@@ -151,17 +150,17 @@
 						</li>
 						<li>
 							<p class="project-descriptionbig">
-					 			Challenge: The challenge of this project was to create a simple UI that would represent a flashcard-like approach to learning. We ran into a challenge with authentication that I was able to debug by installing react-cookies and sending cookies in the header of the action. I will further elaborate on the next slide.
+					 			Challenge: The challenge of this project was to create a UX that would emulate the experience of learning with flashcards. This project was also the first project where I used Passport, Bearer and Oauth to authenticate a user's profile. 
 							</p>
 						</li>
 						<li>
 							<p class="project-descriptionbig">
-								Tech: Essentially with passport's google authentication a user signs in with their google information and an authentication token is stored in the cookies. Bearer, used for route authentication requires the authentication token in cookies for access. When the cookie was not included in the request to the server, Bearer did its job and denied access.
+								Tech: Having the CRUD API interact with the front-end while being authenticated posed some interesting yet predictable challenges. Using react-cookies to send authentication tokens in the header of our fetch calls allowed us to retrieve data securely and privately. 
 							</p>
 						</li>
 						<li>
 							<p class="project-descriptionbig">
-								Takeaways: This project was a fun with a lower level of complexity and moving parts compared to the projects I am working on now. I'd like to explore making this entire project dynamic in a way that a user could customize the theme of the project and the questions that are asked. It could be an all around much more useful tool with those capabilities.
+								Takeaways: UX is at the helm of modern development, eCommerce and of critical importance to create products that work seamlessly with what the user wants. Modeling modern days apps to feel like real world things provides benefit in familiarity and usability.  
 							</p>
 						</li>
 					</ul>
@@ -177,7 +176,7 @@
 				<ul class="bxslider">
 					<li>
 						<p class="project-description">
-							Overview: Find recipes, see their ingredients and nutritional facts without needing to open new tabs. Vegan, GF, Vegetarian, Peanut allergies? You're in luck, we got recipe filters for your needs. Made with my partner Theresa Wilkin, who I had the pleasure of working with for instaFrench.
+							Overview: Discover recipes, see their ingredients and nutritional facts without needing to open new tabs. Vegan, GF, Vegetarian, Peanut allergies? You're in luck, we use filters to provide suggestions for your needs. This project was created while pair programming, allowing both of us to talk about different approaches to arrive upon best solution. 
 						</p>
 						<p class="tags">
 							<i class="icon-css3 stackIcon"></i>
@@ -195,23 +194,17 @@
 				</li>
 				<li>
 					<p class="project-description">
-						Challenge: Going into this project we wanted to create a enticing UX that involved
-						lots of recipies and zero being sent down a wormhole of sites to find the right meal. Both me
-						and my partner had experienced this as a problem and set out to fix it with recipe search.
+						Challenge: Going into this project we wanted to create a UX that provided a lot of value in content with minimal clicks. I had experienced that searching for recipes lead to an over clustered browser full of tabs, we wanted to solve this problem with a one stop shop for finding great recipes.   
 					</p>
 				</li>
 				<li>
 					<p class="project-description">
-						Tech: For this project we used Edamames API which had a plethora of possibilites and jQuery to manipulate
-						the DOM. There is a lot of possiblities and directions to go with this app, but before proceeding I would like
-						to switch over from JQuery to React allowing the app to scale in a cleaner manner.
+						Tech: For this project we used Edamames API and jQuery for presentation and AJAX. JQuery provided a very easy to use framework for writing essential front end operations like conditional component like rendering, handling events and API calls.
 					</p>
 				</li>
 				<li>
 					<p class="project-description">
-						Takeaways: This is a very useful app in ways and also has the potential to be much more.
-						It would be fantasic to use other recipe API's and integrate it into the current system to have a
-						wider base of choices.
+						Takeaways: JQuery can be a powerful solution for simple data display applications and can appropriate for projects of this scope. I find jQuery very easy to work with yet I have also seen jQuery codebases start to look like a bowl of code spaghetti. This is where component based frameworks like Ember.js and React.js shine because they separate concerns architecturally making the app easier to manage as it scales.
 					</p>
 				</li>
 				</ul>
@@ -225,8 +218,7 @@
 						<ul class="bxslider">
 							<li>
 								<p class="project-descriptionbig">
-								Overview: Want to create a color scheme for your app in a more efficent intuitive way? This is the app for you,
-								with Color Helper you can adjust the colors of basic elements to establish your main, secondary, text, and highlight color.
+									Overview: Want to create a color scheme for your app in a more efficient way? This is the app for you! With Color Helper you can adjust the colors of basic elements to establish your main, secondary, text and highlight color.
 								</p>
 								<p class="tags">
 									<div class="techStack">
@@ -243,22 +235,17 @@
 							</li>
 							<li>
 								<p class="project-descriptionbig">
-									Challenge: The challenge of this project to make an easier way to choose the color scheme of your app without the use of dev tools or frequent reloads.
-									Futhermore, to do this in way that is dynamic enough that you could reuse the same components for views in different screen sizes.
+									Challenge: Color Helper sought out to solve the challenge of picking color schemes by providing a quicker way to see colors in action.  
 								</p>
 							</li>
 							<li>
 								<p class="project-descriptionbig">
-									Tech: This app uses styled-components which is a react package for writing inline styles without creating seperate style objects. Basically,
-									each component displayed in the Iphone mockup will change based on the result of the control input. This way you can not only easily try out multiple colors
-									but can take the #hex codes immediately and use them in your app.
+									Tech: This app uses Styled-Components, a package for writing CSS in React components. Color Helper utilizes a single controller component which allows the manipulation of color properties across different components through the usage of props. 
 								</p>
 							</li>
 							<li>
 								<p class="project-descriptionbig">
-									Takeaways: Where to start, I have quite a few idea with this technology. In the same way that I altered the colors, I could alter any property of the css.
-									Now I would have to do this in a way that would maintain scalability of course. I'd like to have multiple color control options, for phones, tablets and desktops to
-									accomodate whatever the user needs.
+									Takeaways: Creating a tool for other developers should be simple, easy to use and provide apparent value from the start. Color Helper allowed me to constantly come back to the question of how can this be better. I would like to expand this project by creating multiple mockups which a user could toggle between to get a more realistic view of how color schemes might look. 
 								</p>
 							</li>
 						</ul>
@@ -273,8 +260,7 @@
 				<ul class="bxslider">
 				  <li>
 						<p class="project-description">
-						Overview: Want to keep track of your money without having to log into your account? Have a fast paced life and want
-						to know you are responsibly spending? Check out my solo project that is the answer to my and possibly your budgeting needs.
+							Overview: Want to keep track of your money without having to log into your account? Have a fast paced life and want to know that you are responsibly spending? Introducing my finance app which is a solution to a budget, goal driven on the go lifestyle. 
 						</p>
 						<p class="tags">
 							<div class="techStack">
@@ -291,24 +277,17 @@
 					</li>
 				  <li>
 						<p class="project-description">
-							Challenge: The challenge of this app was to create a finance tool that would allow you to keep track of your
-							finances in relation to your expenses, savings goals, and budget. Furthermore, the challenge was to do this in a way that maintains simplicity
-							and usuablity.
+							Challenge: The challenge of this app was to create an intuitive way to keep track of finances on the go and to provide value out of the box with having little user time investment to get started.
 						</p>
 					</li>
 				  <li>
 						<p class="project-description">
-							Tech: Using react-native made this an exciting project and I learned a lot along the way. The way elements
-							are turned into widgets / components is an interesting choice as well as inline styling. I have not experience workig with true native
-							code so I cannot really compare but I do like the familiarity to react. Moving forward I'd like to use native-base for
-							the UI, to have a consistent look with other popular mobile apps.
+							Tech: React-Native was the tool of choice to make this a dedicated mobile application without having to dive into Java and Objective-C.  I enjoyed the familiarity to React but I didn’t like the way components are styled in React-Native. 
 						</p>
 					</li>
 				  <li>
-						<p class="project-description">
-							Overview: This has been v1 of my finance app and with the most recent create-react-native-app released
-							by facebook I have started to rebuild the project with the knowlege I know now. This was essentially created as part of
-							a one week journey to learn a new language. More coming...
+						<p class="project-description">	
+							Takeaways: React-Native provides a powerful solution for writing mobile apps and could be useful when starting a green project considering there are many React developers out there who could easily understand the basic idea of React-Native from experience with React. 
 						</p>
 					</li>
 				</ul>
